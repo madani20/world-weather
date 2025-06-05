@@ -1,0 +1,9 @@
+.card {
+  box-sizing: border-box;
+  width: 65%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: blue 4px 4px 20px;
+  background-color: lightblue;
+
+  }

@@ -1,0 +1,48 @@
+<div>
+    <button (click)="goToUrl('weathers')"> Historique</button>
+</div>
+<div>@if (weather || theLatestWeather) {
+    <div>
+        <fieldset class="card">
+            <legend>Informations générales</legend>
+            <h2>{{ weather?.name || theLatestWeather?.name}}</h2> Pays : {{ weather?.country ||
+            theLatestWeather?.country}}<br>
+            Région: {{ weather?.region || theLatestWeather?.region}} <br><br>
+            Coordonnées : {{ weather?.lat || theLatestWeather?.lat}} °, {{ weather?.lon || theLatestWeather?.lon}} °<br>
+            Fuseau horaire: {{ weather?.timezoneId || theLatestWeather?.timezoneId}} <br>
+            Date et heure locale: {{ weather?.localtime || theLatestWeather?.localtime | date: 'dd/MM/YYYY HH:MM'}}
+            <br>
+        </fieldset>
+        <fieldset class="card">
+            <legend>Conditions météorologiques actuelles</legend>
+            <img src=" {{ weather?.weatherIcons || theLatestWeather?.weatherIcons}}">
+
+            Température: {{ weather?.temperature || theLatestWeather?.temperature }} ° C
+            ({{ getPropertyTemperature() || getPropertyTemperatureTheLastest() | celsiusToFahrenheit}} ° F)<br>
+            Ressenti: {{ weather?.feelslike || theLatestWeather?.feelslike}} ° C<br>
+            Description: {{ weather?.weatherDescriptions || theLatestWeather?.weatherDescriptions}} <br>
+            Couverture nuageuse: {{ weather?.cloudcover || theLatestWeather?.cloudcover}} % <br>
+        </fieldset>
+        <fieldset class="card">
+            <legend>Vent</legend>
+            Vitesse: {{ weather?.windSpeed || theLatestWeather?.windSpeed}} m/s<br>
+            Direction: {{ weather?.windDir }} {{weather?.windDegree}} {{theLatestWeather?.windDir}}
+            ({{theLatestWeather?.windDegree}}°) <br>
+        </fieldset>
+
+        <fieldset class="card">
+            <legend>Autres données</legend>
+            Pression atmosphérique: {{ weather?.pressure || theLatestWeather?.pressure}} nPa<br>
+            Humidité: {{ weather?.humidity || theLatestWeather?.humidity}} %<br>
+            Visibilité: {{ weather?.visibility || theLatestWeather?.visibility}} km<br>
+            Précipitations: {{ weather?.precip || theLatestWeather?.precip}} mm<br><br>
+            Heure d'observation: {{ weather?.observationTime || theLatestWeather?.observationTime}} <br>
+            Index UV : {{ weather?.uvIndex || theLatestWeather?.uvIndex}} <br>
+            Est-ce le jour à {{weather?.name || theLatestWeather?.name}} en ce moment? {{ weather?.isDay? 'oui': 'non'
+            || theLatestWeather?.isDay? 'oui': 'non'}}
+        </fieldset>
+    </div>
+    }@else {
+    <div><img src="src/assets/images/accueil_2.webp" alt="Le temps et rien d'autre!"> </div>
+    }
+</div>

@@ -1,0 +1,42 @@
+table {
+    padding: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid lightblue; */
+    border-collapse: collapse;
+    /* margin: 4%; */
+}
+th, td {
+    padding: 5px;
+    width: 26%;
+    border: 1px solid lightblue;
+}
+.card {
+  box-sizing: border-box;
+  width: 65%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: lightblue 4px 4px 20px;
+
+  }
+  button {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 55px;
+    padding: 10px;
+  }
+  span {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+  }
+  input {
+    padding: 9px;
+    border-radius: 2px;
+}
+.clickable-weather {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.clickable-weather:hover {
+  background-color: #f0f0f0;
+}
+
+  

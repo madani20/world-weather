@@ -1,0 +1,36 @@
+<div style="text-align: center;">
+    <button (click)="goToUrl('main')">Accueil</button>
+    <span><label>Recherche rapide </label>
+        <input type="text" [(ngModel)]="keyword" placeholder="Entrez une ville" size="50">
+    </span>
+    <button (click)="searchWeatherByName()">Search</button>
+</div>
+<div class="card">
+    <h2 style="text-align: center ; font-family: 'Times New Roman', Times, serif;"> Dernières villes consultées</h2>
+    <table>
+        <!-- <caption> Dernières villes consultées</caption> -->
+        <thead>
+            <tr>
+                <th>Ville </th>
+                <th>Pays </th>
+                <th>Région</th>
+                <th>Date de consultation</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let weather of weathers | paginate: { itemsPerPage: 12, 
+                                                          currentPage: p, 
+                                                          totalItems: weathers.length}">
+
+            <td (click)="viewWeatherDetails(weather.id)" class="clickable-weather">{{weather.name}} 
+            <td> {{weather.country}}</td>
+            <td> {{weather.region}} </td>
+            <td> {{weather.date | date: 'dd/MM/YYYY HH:mm'}} </td>
+
+        </tr>
+
+        <!-- } -->
+    </table>
+
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+</div>

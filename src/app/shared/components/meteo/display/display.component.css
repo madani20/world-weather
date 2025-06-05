@@ -1,0 +1,31 @@
+.card {
+  box-sizing: border-box;
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: lightblue 4px 4px 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+  }
+  fieldset {
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: lightblue;
+    padding: 5%;
+    border: none;
+    
+  }
+  legend {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 600;
+  }
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  button {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: 180px;
+  }

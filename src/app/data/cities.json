@@ -1,0 +1,957 @@
+{
+  "cities": [
+    {
+      "id": "c33fff",
+      "date": "2024-04-14T13:00:24.377Z",
+      "country": "France",
+      "name": "Marseille",
+      "region": "Provence-Alpes-Cote d'Azur",
+      "lat": "43.300",
+      "lon": "5.400",
+      "localtime": "2024-10-10 17:21",
+      "observation_time": "03:21 PM",
+      "temperature": 22,
+      "windSpeed": 36,
+      "windDegree": 304,
+      "windDir": "NW",
+      "pressure": 1007,
+      "precip": 0,
+      "humidity": 46,
+      "cloudcover": 0,
+      "feelslike": 24,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "31454a",
+      "date": "2024-01-14T12:40:24.377Z",
+      "country": "France",
+      "name": "Roubaix",
+      "region": "Nord-Pas-de-Calais",
+      "lat": "50.700",
+      "lon": "3.167",
+      "localtime": "2024-10-10 17:39",
+      "observation_time": "03:39 PM",
+      "temperature": 12,
+      "windSpeed": 14,
+      "windDegree": 338,
+      "windDir": "NNW",
+      "pressure": 1006,
+      "precip": 0.1,
+      "humidity": 88,
+      "cloudcover": 75,
+      "feelslike": 11,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "56fb07",
+      "date": "2024-09-16T13:40:24.377Z",
+      "country": "France",
+      "name": "Lille",
+      "region": "Nord-Pas-de-Calais",
+      "lat": "50.633",
+      "lon": "3.067",
+      "localtime": "2024-10-10 17:49",
+      "observation_time": "03:49 PM",
+      "temperature": 12,
+      "windSpeed": 14,
+      "windDegree": 340,
+      "windDir": "NNW",
+      "pressure": 1006,
+      "precip": 0.1,
+      "humidity": 82,
+      "cloudcover": 100,
+      "feelslike": 11,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "c68689",
+      "date": "2024-06-14T13:30:24.377Z",
+      "country": "France",
+      "name": "Nice",
+      "region": "Provence-Alpes-Cote d'Azur",
+      "lat": "43.700",
+      "lon": "7.250",
+      "localtime": "2024-10-10 17:48",
+      "observation_time": "03:48 PM",
+      "temperature": 21,
+      "windSpeed": 6,
+      "windDegree": 271,
+      "windDir": "W",
+      "pressure": 999,
+      "precip": 0,
+      "humidity": 53,
+      "cloudcover": 0,
+      "feelslike": 21,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isday": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "433d5b",
+      "date": "2024-03-14T13:40:24.377Z",
+      "country": "Italy",
+      "name": "Rome",
+      "region": "Lazio",
+      "localtime": "2024-10-11 11:47",
+      "lat": "41.900",
+      "lon": "12.483",
+      "observationTime": "09:47 AM",
+      "temperature": "20",
+      "windSpeed": 7,
+      "windDegree": 116,
+      "windDir": "ESE",
+      "pressure": 1011,
+      "precip": 0,
+      "humidity": 68,
+      "cloudcover": 0,
+      "feelslike": 20,
+      "uvIndex": 2,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "be2483",
+      "date": "2024-02-14T13:40:24.377Z",
+      "country": "France",
+      "name": "Tourcoing",
+      "region": "Nord-Pas-de-Calais",
+      "localtime": "2024-10-11 15:14",
+      "lat": "50.717",
+      "lon": "3.150",
+      "observationTime": "01:14 PM",
+      "temperature": "14",
+      "windSpeed": 7,
+      "windDegree": 243,
+      "windDir": "WSW",
+      "pressure": 1018,
+      "precip": 0,
+      "humidity": 41,
+      "cloudcover": 0,
+      "feelslike": 14,
+      "uvIndex": 2,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "cd8b4c",
+      "date": "2024-10-14T13:50:24.377Z",
+      "country": "France",
+      "name": "Lyon",
+      "region": "Rhone-Alpes",
+      "localtime": "2024-10-11 16:13",
+      "lat": "45.750",
+      "lon": "4.850",
+      "observationTime": "02:13 PM",
+      "temperature": "17",
+      "windSpeed": 10,
+      "windDegree": 360,
+      "windDir": "N",
+      "pressure": 1016,
+      "precip": 0,
+      "humidity": 52,
+      "cloudcover": 0,
+      "feelslike": 17,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "311919",
+      "date": "2024-10-15T13:40:24.377Z",
+      "country": "France",
+      "name": "Strasbourg",
+      "region": "Alsace",
+      "lat": "48.583",
+      "lon": "7.750",
+      "timezoneId": "Europe/Paris",
+      "localtime": "2024-10-14 09:33",
+      "observationTime": "07:33 AM",
+      "temperature": "9",
+      "windSpeed": 7,
+      "windDegree": 212,
+      "windDir": "SSW",
+      "pressure": 1018,
+      "precip": 0.6,
+      "humidity": 93,
+      "cloudcover": 75,
+      "feelslike": 8,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+      ],
+      "weatherDescriptions": [
+        "Partly cloudy"
+      ]
+    },
+    {
+      "id": "5383c1",
+      "date": "2024-09-14T13:40:24.377Z",
+      "country": "Tunisia",
+      "name": "Tunis",
+      "region": "Gabes",
+      "lat": "36.803",
+      "lon": "10.180",
+      "timezoneId": "Africa/Tunis",
+      "localtime": "2024-10-14 08:52",
+      "observationTime": "07:52 AM",
+      "temperature": "23",
+      "windSpeed": 4,
+      "windDegree": 166,
+      "windDir": "SSE",
+      "pressure": 1019,
+      "precip": 0,
+      "humidity": 94,
+      "cloudcover": 25,
+      "feelslike": 25,
+      "uvIndex": 0,
+      "visibility": 8,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+      ],
+      "weatherDescriptions": [
+        "Partly cloudy"
+      ]
+    },
+    {
+      "id": "825270",
+      "date": "2024-10-14T13:40:24.377Z",
+      "country": "Spain",
+      "name": "Madrid",
+      "region": "Madrid",
+      "lat": "40.400",
+      "lon": "-3.683",
+      "timezoneId": "Europe/Madrid",
+      "localtime": "2024-10-14 15:39",
+      "observationTime": "01:39 PM",
+      "temperature": "22",
+      "windSpeed": 4,
+      "windDegree": 203,
+      "windDir": "SSW",
+      "pressure": 1016,
+      "precip": 0.6,
+      "humidity": 65,
+      "cloudcover": 0,
+      "feelslike": 25,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "5e5fee",
+      "date": "2024-10-14T14:10:26.678Z",
+      "country": "France",
+      "name": "Lourdes",
+      "region": "Midi-Pyrenees",
+      "lat": "43.100",
+      "lon": "-0.050",
+      "timezoneId": "Europe/Paris",
+      "localtime": "2024-10-14 16:09",
+      "observationTime": "02:09 PM",
+      "temperature": "23",
+      "windSpeed": 7,
+      "windDegree": 57,
+      "windDir": "ENE",
+      "pressure": 1017,
+      "precip": 0,
+      "humidity": 61,
+      "cloudcover": 37,
+      "feelslike": 25,
+      "uvIndex": 2,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+      ],
+      "weatherDescriptions": [
+        "Partly cloudy"
+      ]
+    },
+    {
+      "id": "20c686",
+      "date": "2024-10-15T07:16:51.606Z",
+      "country": "Belgium",
+      "name": "Moscou",
+      "region": "",
+      "lat": "51.067",
+      "lon": "2.950",
+      "timezoneId": "Europe/Brussels",
+      "localtime": "2024-10-15 09:16",
+      "observationTime": "07:16 AM",
+      "temperature": 10,
+      "windSpeed": 21,
+      "windDegree": 110,
+      "windDir": "ESE",
+      "pressure": 1018,
+      "precip": 0,
+      "humidity": 87,
+      "cloudcover": 75,
+      "feelslike": 7,
+      "uvIndex": 0,
+      "visibility": 5,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+      ],
+      "weatherDescriptions": [
+        "Mist"
+      ]
+    },
+    {
+      "id": "bfe603",
+      "date": "2024-10-15T07:23:36.192Z",
+      "country": "Nigeria",
+      "name": "Bénin",
+      "region": "Edo",
+      "lat": "6.333",
+      "lon": "5.633",
+      "timezoneId": "Africa/Lagos",
+      "localtime": "2024-10-15 08:22",
+      "observationTime": "07:22 AM",
+      "temperature": 24,
+      "windSpeed": 4,
+      "windDegree": 343,
+      "windDir": "NNW",
+      "pressure": 1015,
+      "precip": 0,
+      "humidity": 93,
+      "cloudcover": 65,
+      "feelslike": 26,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
+      ],
+      "weatherDescriptions": [
+        "Cloudy "
+      ]
+    },
+    {
+      "id": "8656d8",
+      "date": "2024-10-15T08:23:35.575Z",
+      "country": "Brazil",
+      "name": "Rio De Janeiro",
+      "region": "Rio de Janeiro",
+      "lat": "-22.900",
+      "lon": "-43.233",
+      "timezoneId": "America/Sao_Paulo",
+      "localtime": "2024-10-15 05:22",
+      "observationTime": "08:22 AM",
+      "temperature": 21,
+      "windSpeed": 5,
+      "windDegree": 47,
+      "windDir": "NE",
+      "pressure": 1019,
+      "precip": 0,
+      "humidity": 73,
+      "cloudcover": 50,
+      "feelslike": 21,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+      ],
+      "weatherDescriptions": [
+        "Partly cloudy"
+      ]
+    },
+    {
+      "id": "667df0",
+      "date": "2024-10-15T09:20:41.142Z",
+      "country": "France",
+      "name": "Valence",
+      "region": "Rhone-Alpes",
+      "lat": "44.933",
+      "lon": "4.900",
+      "timezoneId": "Europe/Paris",
+      "localtime": "2024-10-15 11:19",
+      "observationTime": "09:19 AM",
+      "temperature": 22,
+      "windSpeed": 19,
+      "windDegree": 196,
+      "windDir": "SSW",
+      "pressure": 1016,
+      "precip": 0,
+      "humidity": 65,
+      "cloudcover": 4,
+      "feelslike": 22,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "95aed2",
+      "date": "2024-10-15T09:27:43.733Z",
+      "country": "Bangladesh",
+      "name": "Dacca",
+      "region": "",
+      "lat": "23.723",
+      "lon": "90.409",
+      "timezoneId": "Asia/Dhaka",
+      "localtime": "2024-10-15 15:26",
+      "observationTime": "09:26 AM",
+      "temperature": 32,
+      "windSpeed": 10,
+      "windDegree": 330,
+      "windDir": "NNW",
+      "pressure": 1007,
+      "precip": 0,
+      "humidity": 46,
+      "cloudcover": 13,
+      "feelslike": 34,
+      "uvIndex": 3,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "a25b8c",
+      "date": "2024-10-15T13:16:39.504Z",
+      "country": "Germany",
+      "name": "Berlin",
+      "region": "Berlin",
+      "lat": "52.517",
+      "lon": "13.400",
+      "timezoneId": "Europe/Berlin",
+      "localtime": "2024-10-15 15:15",
+      "observationTime": "01:15 PM",
+      "temperature": 13,
+      "windSpeed": 4,
+      "windDegree": 344,
+      "windDir": "NNW",
+      "pressure": 1025,
+      "precip": 0,
+      "humidity": 54,
+      "cloudcover": 25,
+      "feelslike": 14,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+      ],
+      "weatherDescriptions": [
+        "Partly cloudy"
+      ]
+    },
+    {
+      "id": "88638c",
+      "date": "2024-10-16T12:05:59.314Z",
+      "country": "Canada",
+      "name": "Delhi",
+      "region": "Ontario",
+      "lat": "42.850",
+      "lon": "-80.500",
+      "timezoneId": "America/Toronto",
+      "localtime": "2024-10-16 07:16",
+      "observationTime": "11:16 AM",
+      "temperature": 2,
+      "windSpeed": 21,
+      "windDegree": 341,
+      "windDir": "NNW",
+      "pressure": 1022,
+      "precip": 0,
+      "humidity": 87,
+      "cloudcover": 0,
+      "feelslike": -3,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "no",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png"
+      ],
+      "weatherDescriptions": [
+        "Clear"
+      ]
+    },
+    {
+      "id": "556d36",
+      "date": "2024-10-16T13:20:30.751Z",
+      "country": "Pakistan",
+      "name": "Karachi",
+      "region": "Sindh",
+      "lat": "24.867",
+      "lon": "67.050",
+      "timezoneId": "Asia/Karachi",
+      "localtime": "2024-10-16 17:46",
+      "observationTime": "12:46 PM",
+      "temperature": 31,
+      "windSpeed": 24,
+      "windDegree": 265,
+      "windDir": "W",
+      "pressure": 1007,
+      "precip": 0,
+      "humidity": 54,
+      "cloudcover": 11,
+      "feelslike": 34,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "9fe57e",
+      "date": "2024-10-16T14:51:56.928Z",
+      "country": "Italy",
+      "name": "Naples",
+      "region": "Campania",
+      "lat": "40.833",
+      "lon": "14.250",
+      "timezoneId": "Europe/Rome",
+      "localtime": "2024-10-16 14:29",
+      "observationTime": "12:29 PM",
+      "temperature": 25,
+      "windSpeed": 5,
+      "windDegree": 226,
+      "windDir": "SW",
+      "pressure": 1020,
+      "precip": 0,
+      "humidity": 65,
+      "cloudcover": 0,
+      "feelslike": 26,
+      "uvIndex": 3,
+      "visibility": 8,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "d9cdb5",
+      "date": "2024-10-17T15:02:42.654Z",
+      "country": "Canada",
+      "name": "Québec",
+      "region": "Quebec",
+      "lat": "46.800",
+      "lon": "-71.250",
+      "timezoneId": "America/Toronto",
+      "localtime": "2024-10-17 11:00",
+      "observationTime": "03:00 PM",
+      "temperature": 5,
+      "windSpeed": 13,
+      "windDegree": 256,
+      "windDir": "WSW",
+      "pressure": 1023,
+      "precip": 0,
+      "humidity": 83,
+      "cloudcover": 0,
+      "feelslike": 2,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    },
+    {
+      "id": "511a43",
+      "date": "2024-10-18T13:03:04.503Z",
+      "country": "Portugal",
+      "name": "Faro",
+      "region": "Faro",
+      "lat": "37.017",
+      "lon": "-7.933",
+      "timezoneId": "Europe/Lisbon",
+      "localtime": "2024-10-18 14:02",
+      "observationTime": "01:02 PM",
+      "temperature": 21,
+      "windSpeed": 23,
+      "windDegree": 260,
+      "windDir": "W",
+      "pressure": 1025,
+      "precip": 0,
+      "humidity": 69,
+      "cloudcover": 50,
+      "feelslike": 21,
+      "uvIndex": 4,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+      ],
+      "weatherDescriptions": [
+        "Partly cloudy"
+      ]
+    },
+    {
+      "id": "cb2d53",
+      "date": "2024-10-18T13:20:26.915Z",
+      "country": "Slovenia",
+      "name": "Venise",
+      "region": "Brezovica",
+      "lat": "45.933",
+      "lon": "15.467",
+      "timezoneId": "Europe/Ljubljana",
+      "localtime": "2024-10-18 15:19",
+      "observationTime": "01:19 PM",
+      "temperature": 13,
+      "windSpeed": 4,
+      "windDegree": 132,
+      "windDir": "SE",
+      "pressure": 1021,
+      "precip": 0,
+      "humidity": 94,
+      "cloudcover": 100,
+      "feelslike": 14,
+      "uvIndex": 0,
+      "visibility": 6,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+      ],
+      "weatherDescriptions": [
+        "Overcast"
+      ]
+    },
+    {
+      "id": "1ce642",
+      "date": "2024-10-21T06:52:25.473Z",
+      "country": "Canada",
+      "name": "Winnipeg",
+      "region": "Manitoba",
+      "lat": "49.883",
+      "lon": "-97.167",
+      "timezoneId": "America/Winnipeg",
+      "localtime": "2024-10-21 01:52",
+      "observationTime": "06:52 AM",
+      "temperature": 10,
+      "windSpeed": 11,
+      "windDegree": 41,
+      "windDir": "NE",
+      "pressure": 1015,
+      "precip": 0,
+      "humidity": 63,
+      "cloudcover": 0,
+      "feelslike": 9,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "no",
+      "weatherIcons": [
+        " https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Clear"
+      ]
+    },
+    {
+      "id": "a902ff",
+      "date": "2024-10-21T08:50:47.544Z",
+      "country": "China",
+      "name": "Harbin",
+      "region": "Heilongjiang",
+      "lat": "45.750",
+      "lon": "126.650",
+      "timezoneId": "Asia/Shanghai",
+      "localtime": "2024-10-21 16:50",
+      "observationTime": "08:50 AM",
+      "temperature": 14,
+      "windSpeed": 32,
+      "windDegree": 217,
+      "windDir": "SW",
+      "pressure": 1010,
+      "precip": 0,
+      "humidity": 59,
+      "cloudcover": 75,
+      "feelslike": 12,
+      "uvIndex": 1,
+      "visibility": 10,
+      "isDay": "no",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+      ],
+      "weatherDescriptions": [
+        "Partly cloudy"
+      ]
+    },
+    {
+      "id": "c31584",
+      "date": "2024-10-21T08:55:34.617Z",
+      "country": "Kazakhstan",
+      "name": "Astana",
+      "region": "Astana",
+      "lat": "51.181",
+      "lon": "71.428",
+      "timezoneId": "Asia/Almaty",
+      "localtime": "2024-10-21 13:54",
+      "observationTime": "08:54 AM",
+      "temperature": 6,
+      "windSpeed": 10,
+      "windDegree": 233,
+      "windDir": "SW",
+      "pressure": 1014,
+      "precip": 0.3,
+      "humidity": 93,
+      "cloudcover": 37,
+      "feelslike": 4,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png"
+      ],
+      "weatherDescriptions": [
+        "Light Rain Shower"
+      ]
+    },
+    {
+      "id": "35aca2",
+      "date": "2024-10-21T09:20:29.482Z",
+      "country": "Mexico",
+      "name": "Alaska",
+      "region": "Chiapas",
+      "lat": "16.559",
+      "lon": "-93.973",
+      "timezoneId": "America/Mexico_City",
+      "localtime": "2024-10-21 03:20",
+      "observationTime": "09:20 AM",
+      "temperature": 20,
+      "windSpeed": 7,
+      "windDegree": 19,
+      "windDir": "NNE",
+      "pressure": 1013,
+      "precip": 0,
+      "humidity": 98,
+      "cloudcover": 100,
+      "feelslike": 20,
+      "uvIndex": 0,
+      "visibility": 0,
+      "isDay": "no",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0007_fog.png"
+      ],
+      "weatherDescriptions": [
+        "Fog"
+      ]
+    },
+    {
+      "id": "aeb1ec",
+      "date": "2024-11-04T16:14:08.392Z",
+      "country": "Spain",
+      "name": "Algerri",
+      "region": "Catalonia",
+      "lat": "41.817",
+      "lon": "0.633",
+      "timezoneId": "Europe/Madrid",
+      "localtime": "2024-11-04 17:13",
+      "observationTime": "04:13 PM",
+      "temperature": 20,
+      "windSpeed": 6,
+      "windDegree": 131,
+      "windDir": "SE",
+      "pressure": 1021,
+      "precip": 0.5,
+      "humidity": 68,
+      "cloudcover": 80,
+      "feelslike": 20,
+      "uvIndex": 0,
+      "visibility": 9,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+      ],
+      "weatherDescriptions": [
+        "Patchy rain nearby"
+      ]
+    },
+    {
+      "id": "6e119f",
+      "date": "2024-11-04T17:55:01.233Z",
+      "country": "La Colombie",
+      "name": "Andalousie",
+      "region": "Valle del Cauca",
+      "lat": "4.174",
+      "lon": "-76.170",
+      "timezoneId": "America/Bogota",
+      "localtime": "2024-11-04 12:54",
+      "observationTime": "05:54 PM",
+      "temperature": 26,
+      "windSpeed": 4,
+      "windDegree": 298,
+      "windDir": "WNW",
+      "pressure": 1013,
+      "precip": 0.4,
+      "humidity": 64,
+      "cloudcover": 75,
+      "feelslike": 28,
+      "uvIndex": 12,
+      "visibility": 9,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+      ],
+      "weatherDescriptions": [
+        "Patchy rain nearby"
+      ]
+    },
+    {
+      "id": "30db47",
+      "date": "2024-11-04T17:56:05.454Z",
+      "country": "United States of America",
+      "name": "Texas City",
+      "region": "Texas",
+      "lat": "29.384",
+      "lon": "-94.903",
+      "timezoneId": "America/Chicago",
+      "localtime": "2024-11-04 11:55",
+      "observationTime": "05:55 PM",
+      "temperature": 29,
+      "windSpeed": 41,
+      "windDegree": 158,
+      "windDir": "SSE",
+      "pressure": 1011,
+      "precip": 0,
+      "humidity": 80,
+      "cloudcover": 100,
+      "feelslike": 35,
+      "uvIndex": 5,
+      "visibility": 16,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+      ],
+      "weatherDescriptions": [
+        "Overcast"
+      ]
+    },
+    {
+      "id": "09e16e",
+      "date": "2024-11-04T17:57:06.060Z",
+      "country": "Ireland",
+      "name": "Dublin",
+      "region": "Dublin",
+      "lat": "53.333",
+      "lon": "-6.249",
+      "timezoneId": "Europe/Dublin",
+      "localtime": "2024-11-04 17:56",
+      "observationTime": "05:56 PM",
+      "temperature": 12,
+      "windSpeed": 10,
+      "windDegree": 142,
+      "windDir": "SE",
+      "pressure": 1022,
+      "precip": 0,
+      "humidity": 77,
+      "cloudcover": 100,
+      "feelslike": 11,
+      "uvIndex": 0,
+      "visibility": 10,
+      "isDay": "no",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+      ],
+      "weatherDescriptions": [
+        "Overcast"
+      ]
+    },
+    {
+      "id": "b519b3",
+      "date": "2025-06-05T08:50:48.880Z",
+      "country": "Italy",
+      "name": "Florence",
+      "region": "Toscana",
+      "lat": "43.767",
+      "lon": "11.250",
+      "timezoneId": "Europe/Rome",
+      "localtime": "2025-06-05 10:50",
+      "observationTime": "08:50 AM",
+      "temperature": 25,
+      "windSpeed": 14,
+      "windDegree": 207,
+      "windDir": "SSW",
+      "pressure": 1017,
+      "precip": 0,
+      "humidity": 54,
+      "cloudcover": 0,
+      "feelslike": 26,
+      "uvIndex": 4,
+      "visibility": 10,
+      "isDay": "yes",
+      "weatherIcons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weatherDescriptions": [
+        "Sunny"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<div>
+    <button (click)="goToUrl('main')" class="button2">Accueil</button>
+    <button (click)="goToUrl('weathers')" class="button1">Retour à la liste</button>
+    <h4 style="text-align: center; font-family: 'Times New Roman', Times, serif">La météo de {{weather?.name ||
+        weatherFiltered?.name}} a été consultée le
+        {{ weather?.date || weatherFiltered?.date| date: 'dd/MM/YY'}} à
+        {{ weather?.date || weatherFiltered?.date | date: 'HH:mm:ss'}}</h4>
+</div>
+
+<div>@if (weatherFiltered || weather) {
+    <div>
+        <div>
+            <fieldset class="card">
+                <legend>Informations générales</legend>
+                <h2>{{ weather?.name || weatherFiltered?.name}}</h2> Pays : {{ weather?.country ||
+                weatherFiltered?.country}}<br>
+                Région: {{ weather?.region || weatherFiltered?.region}} <br><br>
+                Coordonnées : {{ weather?.lat || weatherFiltered?.lat}} ° , {{ weather?.lon|| weatherFiltered?.lon }}
+                °<br>
+                Fuseau horaire: {{ weather?.timezoneId || weatherFiltered?.timezoneId}} <br>
+                Date et heure locale: {{ weather?.localtime || weatherFiltered?.localtime | date: 'dd/MM/YYYY HH:MM'}}
+                <br>
+            </fieldset>
+            <fieldset class="card">
+                <legend>Conditions météorologiques actuelles</legend>
+                <img src=" {{ weather?.weatherIcons}}" width="25" height="25">
+
+                Température: {{ weather?.temperature || weatherFiltered?.temperature }} ° C
+                ({{ getPropertyTemperature() || getPropertyTemperatureTheLastest() | celsiusToFahrenheit}} ° F)<br>
+                Ressenti: {{ weather?.feelslike || weatherFiltered?.feelslike}} <br>
+                Description: {{ weather?.weatherDescriptions || weatherFiltered?.weatherDescriptions}} <br>
+                Couverture nuageuse: {{ weather?.cloudcover || weatherFiltered?.cloudcover}} % <br>
+            </fieldset>
+            <fieldset class="card">
+                <legend>Vent</legend>
+                Vitesse: {{ weather?.windSpeed || weatherFiltered?.windSpeed }} m/s<br>
+                Direction: {{ weather?.windDir || weatherFiltered?.windDir }} ({{weather?.windDegree ||
+                weatherFiltered?.windDegree }} °)
+                <br>
+            </fieldset>
+            <fieldset class="card">
+                <legend>Autres données</legend>
+                Pression atmosphérique: {{ weather?.pressure || weatherFiltered?.pressure }} nPa<br>
+                Humidité: {{ weather?.humidity || weatherFiltered?.humidity }} %<br>
+                Visibilité: {{ weather?.visibility || weatherFiltered?.visibility }} km<br>
+                Précipitations: {{ weather?.precip || weatherFiltered?.precip }} mm<br><br>
+                Heure d'observation: {{ weather?.observationTime || weatherFiltered?.observationTime}} <br>
+                Index UV : {{ weather?.uvIndex || weatherFiltered?.uvIndex}} <br>
+                Est-ce le jour à {{weather?.name || weatherFiltered?.name}} en ce moment? {{ weather?.isDay ||
+                weatherFiltered?.isDay ? 'oui' : 'non'}}
+            </fieldset>
+        </div>
+    </div>
+    } @else {
+    <div>
+        Rien ici!
+    </div>
+    }
+</div>

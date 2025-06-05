@@ -1,0 +1,14 @@
+<div style="text-align: center;">
+    <h3 style="font-family: 'Times New Roman', Times, serif;">Recherche par la ville : </h3>
+
+    <form (ngSubmit)="submitToSearch()" #searchForm="ngForm">
+        <input name="keyword" type="text" [(ngModel)]="keyword" required
+            placeholder="Exemple: London, United Kingdom ou Paris, Texas" style=" padding: 10px;" size="60" />
+        <button
+            style="margin-left: 10px ;padding: 10px; font-family: 'Times New Roman', Times, serif;">rechercher</button>
+    </form>
+</div>
+<div class="spinner-container"> @if (isLoading) {
+    <mat-spinner></mat-spinner>
+    }
+</div>
